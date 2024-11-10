@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Solution04 {
 
     public static void main(String[] args) {
-            Scanner sc=new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.println("================================");
             for(int i=0;i<3;i++){
                 String s1=sc.next();
@@ -27,6 +27,7 @@ public class Solution04 {
                     System.out.println(x);
                 }
             }
+            sc.close();
             System.out.println("================================");
 
     }
