@@ -12,7 +12,7 @@ public class Solution09
         H = scan.nextInt();
         scan.close();
         try {
-            if (B < 0 || H < 0) {
+            if (B <= 0 || H <= 0) {
                 flag = false;
                 throw new Exception("Breadth and height must be positive");
             }
