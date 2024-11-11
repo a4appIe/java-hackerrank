@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 public class Solution07 {
     public static void main(String[] argh) {
