@@ -12,7 +12,9 @@ public class Solution10 {
    in.close();
    //String s=???; Complete this line below
 
-   String s = "0"+n;
+   StringBuilder x = new StringBuilder();
+   x.append(n);
+   String s = x.toString();
 
    
    if (n == Integer.parseInt(s)) {
