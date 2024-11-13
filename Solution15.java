@@ -7,6 +7,7 @@ public class Solution15 {
         Scanner sc = new Scanner(System.in);
         String A = sc.next();
         String s = "";
+        sc.close();
         /* Enter your code here. Print output to STDOUT. */
         for (int i = A.length() - 1; i >= 0; i--) {
             s += A.charAt(i);
