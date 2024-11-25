@@ -16,6 +16,8 @@ public class Solution12 {
         scan.close();
         
         String us = NumberFormat.getCurrencyInstance(Locale.US).format(amount);
+        
+        @SuppressWarnings("deprecation")
         String india = NumberFormat.getCurrencyInstance(new Locale("en", "in")).format(amount);
         String china = NumberFormat.getCurrencyInstance(Locale.CHINA).format(amount);
         String france = NumberFormat.getCurrencyInstance(Locale.FRANCE).format(amount);
